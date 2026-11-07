@@ -1,0 +1,33 @@
+Package: seam
+Title: Sparse Extended Analysis of Modules
+Version: 0.1.0
+Maintainer: Marketa Barac Makarova <marketa.makarova@mail.muni.cz>
+Authors@R: c(person(given = c("Marketa", "Barac"),
+                      family = "Makarova",
+                      role = c("aut", "cre"),
+                      email = "marketa.makarova@mail.muni.cz"),
+               person(given = "Jan",
+                      family = "Kolacek",
+                      role = "ctb"))
+Description: Provides tools for comparing groups using sparse principal
+    component analysis (SPCA). Includes functions for identifying and
+    visualizing influential variables, assessing variable selection
+    stability through bootstrapping, and exploring associations with
+    clinical traits. SPCA is implemented using the method described in
+    <doi:10.1198/106186006X113430>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: dplyr, elasticnet, ggplot2, graphics, rlang, stats, tidyr
+Suggests: spelling, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-10-23 20:45:45 UTC; makar
+Author: Marketa Barac Makarova [aut, cre],
+  Jan Kolacek [ctb]
+URL: https://github.com/marketa-makarova/seam
+BugReports: https://github.com/marketa-makarova/seam/issues
+Config/roxygen2/version: 8.1.0
+Language: en-US
+Repository: CRAN
+Date/Publication: 2026-11-07 16:20:02 UTC
